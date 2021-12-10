@@ -16,9 +16,13 @@ class DatabaseSeeder extends Seeder
     {
         // \App\Models\User::factory(10)->create();
         User::create([
-            'name' => 'Muhammad Andra Fahreza',
-            'email' => 'andrafahreza818@gmail.com',
+            'name' => 'Administrator',
+            'email' => 'admin@gmail.com',
             'password' => bcrypt('12345678'),
+        ]);
+        $this->call([
+            BeritaSeeder::class,
+            KategoriBeritaSeeder::class
         ]);
     }
 }
