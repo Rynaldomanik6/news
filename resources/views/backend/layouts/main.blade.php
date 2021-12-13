@@ -9,21 +9,21 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap Dropzone CSS -->
+    <link href="{!! asset('backend/vendors/dropzone/dist/dropzone.css') !!}" rel="stylesheet" type="text/css" />
 
     <!-- Bootstrap Dropzone CSS -->
-	<link href="{!! asset('backend/vendors/dropzone/dist/dropzone.css') !!}" rel="stylesheet" type="text/css"/>
-	
-	<!-- Bootstrap Dropzone CSS -->
-	<link href="{!! asset('backend/vendors/dropify/dist/css/dropify.min.css') !!}" rel="stylesheet" type="text/css"/>
-	
-	<!-- Morris Charts CSS -->
+    <link href="{!! asset('backend/vendors/dropify/dist/css/dropify.min.css') !!}" rel="stylesheet" type="text/css" />
+
+    <!-- Morris Charts CSS -->
     <link href="{!! asset('backend/vendors/morris.js/morris.css') !!}" rel="stylesheet" type="text/css" />
-	
+
     <!-- Toggles CSS -->
     <link href="{!! asset('backend/vendors/jquery-toggles/css/toggles.css') !!}" rel="stylesheet" type="text/css">
     <link href="{!! asset('backend/vendors/jquery-toggles/css/themes/toggles-light.css') !!}" rel="stylesheet" type="text/css">
-	
-	<!-- Toastr CSS -->
+
+    <!-- Toastr CSS -->
     <link href="{!! asset('backend/vendors/jquery-toast-plugin/dist/jquery.toast.min.css') !!}" rel="stylesheet" type="text/css">
 
     <!-- Custom CSS -->
@@ -49,14 +49,14 @@
     <!-- Toggles JavaScript -->
     <script src="{!! asset('backend/vendors/jquery-toggles/toggles.min.js') !!}"></script>
     <script src="{!! asset('backend/dist/js/toggle-data.js') !!}"></script>
-	
-	<!-- Toastr JS -->
+
+    <!-- Toastr JS -->
     <script src="{!! asset('backend/vendors/jquery-toast-plugin/dist/jquery.toast.min.js') !!}"></script>
-	<script src="{!! asset('backend/dist/js/toast-data.js') !!}"></script>
-	
+    <script src="{!! asset('backend/dist/js/toast-data.js') !!}"></script>
+
     <!-- Counter Animation JavaScript -->
-	<script src="{!! asset('backend/vendors/waypoints/lib/jquery.waypoints.min.js') !!}"></script>
-	<script src="{!! asset('backend/vendors/jquery.counterup/jquery.counterup.min.js') !!}"></script>
+    <script src="{!! asset('backend/vendors/waypoints/lib/jquery.waypoints.min.js') !!}"></script>
+    <script src="{!! asset('backend/vendors/jquery.counterup/jquery.counterup.min.js') !!}"></script>
 </head>
 
 <body>
@@ -65,14 +65,14 @@
         <div class="loader-pendulums"></div>
     </div>
     <!-- /Preloader -->
-	
-	<!-- HK Wrapper -->
-	<div class="hk-wrapper hk-vertical-nav">
+
+    <!-- HK Wrapper -->
+    <div class="hk-wrapper hk-vertical-nav">
         @include('backend.layouts.partials.navbar')
 
         <!-- Main Content -->
         <div class="hk-pg-wrapper">
-			<!-- Container -->
+            <!-- Container -->
             <div class="container-fluid mt-xl-50 mt-sm-30 mt-15">
                 <div class="row">
                     <div class="col-xl-12">
@@ -81,7 +81,7 @@
                 </div>
             </div>
             <!-- /Container -->
-			
+
             @include('backend.layouts.partials.footer')
         </div>
         <!-- /Main Content -->
@@ -110,11 +110,11 @@
     <!-- Morris Charts JavaScript -->
     <script src="{!! asset('backend/vendors/raphael/raphael.min.js') !!}"></script>
     <script src="{!! asset('backend/vendors/morris.js/morris.min.js') !!}"></script>
-	
-	<!-- Easy pie chart JS -->
+
+    <!-- Easy pie chart JS -->
     <script src="{!! asset('backend/vendors/easy-pie-chart/dist/jquery.easypiechart.min.js') !!}"></script>
-	
-	<!-- Flot Charts JavaScript -->
+
+    <!-- Flot Charts JavaScript -->
     <script src="{!! asset('backend/vendors/flot/excanvas.min.js') !!}"></script>
     <script src="{!! asset('backend/vendors/flot/jquery.flot.js') !!}"></script>
     <script src="{!! asset('backend/vendors/flot/jquery.flot.pie.js') !!}"></script>
@@ -123,22 +123,22 @@
     <script src="{!! asset('backend/vendors/flot/jquery.flot.stack.js') !!}"></script>
     <script src="{!! asset('backend/vendors/flot/jquery.flot.crosshair.js') !!}"></script>
     <script src="{!! asset('backend/vendors/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js') !!}"></script>
-	
-	<!-- EChartJS JavaScript -->
+
+    <!-- EChartJS JavaScript -->
     <script src="{!! asset('backend/vendors/echarts/dist/echarts-en.min.js') !!}"></script>
-    
+
     <!-- Init JavaScript -->
     <script src="{!! asset('backend/dist/js/init.js') !!}"></script>
-	<script src="{!! asset('backend/dist/js/dashboard2-data.js') !!}"></script>
+    <script src="{!! asset('backend/dist/js/dashboard2-data.js') !!}"></script>
 
     <!-- Dropzone JavaScript -->
-	<script src="{!! asset('backend/vendors/dropzone/dist/dropzone.js') !!}"></script>
-	
-	<!-- Dropify JavaScript -->
-	<script src="{!! asset('backend/vendors/dropify/dist/js/dropify.min.js') !!}"></script>
-	
-	<!-- Form Flie Upload Data JavaScript -->
-	<script src="{!! asset('backend/dist/js/form-file-upload-data.js') !!}"></script>
+    <script src="{!! asset('backend/vendors/dropzone/dist/dropzone.js') !!}"></script>
+
+    <!-- Dropify JavaScript -->
+    <script src="{!! asset('backend/vendors/dropify/dist/js/dropify.min.js') !!}"></script>
+
+    <!-- Form Flie Upload Data JavaScript -->
+    <script src="{!! asset('backend/dist/js/form-file-upload-data.js') !!}"></script>
 
     <!-- Tinymce JavaScript -->
     <script src="{!! asset('backend/vendors/tinymce/tinymce.min.js') !!}"></script>
@@ -149,7 +149,7 @@
     <!-- Jasny-bootstrap  JavaScript -->
     <script src="{!! asset('backend/vendors/jasny-bootstrap/dist/js/jasny-bootstrap.min.js') !!}"></script>
 
-	
+
 </body>
 
 </html>
